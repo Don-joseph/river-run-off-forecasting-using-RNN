@@ -1,0 +1,76 @@
+   /* Style the table */
+   #text-area-table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#text-area-table td {
+    border: 1px solid black;
+    padding: 1px;
+    
+}
+
+/* Style the text areas */
+textarea {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+h2 {
+    color: rgb(5, 0, 0);
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    text-shadow: 2px 2px 4px #000000;
+  }
+  table {
+    font-size: 9px;
+  }
+
+body
+{
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background: linear-gradient(45deg, #49a09d, #5f2c82);}
+
+
+input[type="date"] {
+
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 8px;
+width: 80px;
+}
+thead {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  background-color: #55608f;
+}
+
+/* Style for the label of the input field with type="date" */
+label[for="date"] {
+font-weight: bold;
+}
+
+#submit{
+ margin-left: 500px;   
+}
+
+.custom-button {
+  background-color: #FF5733; /* change the background color to orange */
+  color: white; /* change the text color to white */
+  border: none; /* remove the border */
+  padding: 10px 20px; /* add padding to the button */
+  border-radius: 5px; /* add rounded corners */
+  font-size: 16px; /* change the font size */
+  font-family: 'Chivo Mono', monospace; /* keep the same font family */
+}

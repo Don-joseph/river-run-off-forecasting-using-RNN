@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>River Forecast</title>
+  <link rel="stylesheet" type="text/css" href="../static/page5.css">
+  <script src="../static/page5.js"></script>
+</head>
+
+  <body>
+    new Chart("myChart", {
+      type: "line",
+      data: {
+        // ...
+      },
+      options: {
+        scales: {
+          xAxes: [{
+            ticks: {
+              fontColor: "red"
+            },
+            gridLines: {
+              color: "red",
+              zeroLineColor: "red"
+            }
+          }],
+          yAxes: [{
+            ticks: {
+              fontColor: "red"
+            },
+            gridLines: {
+              color: "red",
+              zeroLineColor: "red"
+            }
+          }]
+        }
+      }
+    });
+
+    
+ 
+</body>
+</html>
